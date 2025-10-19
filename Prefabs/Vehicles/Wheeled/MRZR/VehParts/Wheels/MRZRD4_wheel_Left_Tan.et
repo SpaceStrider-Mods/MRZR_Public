@@ -1,0 +1,13 @@
+GenericEntity : "{A636B4FC76AE11CA}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZRD4_wheel_Left.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{6528211F560FCFF1}" {
+     SourceMaterial "MRZR_body"
+     AssignedMaterial "{4EDA8B1E6502F46E}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_body_tan.emat"
+    }
+   }
+  }
+ }
+}

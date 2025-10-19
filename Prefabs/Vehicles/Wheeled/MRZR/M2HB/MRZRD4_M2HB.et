@@ -1,0 +1,72 @@
+Vehicle : "{B7994B635CD07BEB}Prefabs/Vehicles/Wheeled/MRZR/MRZRD4_base.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#SPC_Vehicle_MRZR - #AR-Weapon_M2HB_Name"
+    Icon "{5779776B5B20F50C}UI/Textures/Editor/EditableEntities/Vehicles/EditableEntity_Vehicle_Offroad_Armed.edds"
+    m_Image "{B9F844CBDB514E6A}UI/Textures/EditorPreviews/Vehicles/Wheeled/MRZR/MRZR_Green_M2HB.edds"
+    m_aAuthoredLabels {
+     3 21 39
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{5EDC86E4AF8908B6}" {
+      m_Value 280
+     }
+     SCR_EntityBudgetValue "{6528141C3EA3638B}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+    }
+    m_aOccupantFillCompartmentTypes + {
+     1
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{651C5520FF32C8EB}" {
+   MultiSlots {
+    MultiSlotConfiguration "{652A2B8625C7B04A}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Enabled 1
+     }
+    }
+   }
+   m_fMaxWeight 480
+  }
+  VehicleWheeledSimulation "{731B26FCA2F19855}" {
+   Simulation Wheeled "{4D8B26DEA5F25978}" {
+    Engine Engine Engine {
+     Steepness 80
+     Friction 10
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo SupplyStorage_01 {
+     PivotID ""
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_02 {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_03 {
+     Enabled 0
+    }
+    EntitySlotInfo SupplyStorage_04 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Weapon {
+     Offset 0 -0.1108 0
+     MergePhysics 1
+     Prefab "{1C151DA21A0F2D24}Prefabs/Vehicles/Wheeled/MRZR/VehParts/Turrets/MRZR_gun_mount_M2HB.et"
+     RegisterActions 1
+     RegisterDamage 1
+     RegisterControllers 1
+     RegisterWeapons 1
+     RegisterCompartments 1
+    }
+   }
+  }
+ }
+}

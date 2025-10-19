@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{4468742E64F2BF07}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZR_CamoNet.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

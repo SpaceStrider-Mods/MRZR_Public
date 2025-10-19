@@ -1,0 +1,18 @@
+Vehicle : "{B7994B635CD07BEB}Prefabs/Vehicles/Wheeled/MRZR/MRZRD4_base.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{C2A2369A5AED0BAC}UI/Textures/EditorPreviews/Vehicles/Wheeled/MRZR/MRZR_Green.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo CamoNet {
+     Prefab "{4468742E64F2BF07}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZR_CamoNet.et"
+     InheritParentSkeleton 1
+    }
+   }
+  }
+ }
+}

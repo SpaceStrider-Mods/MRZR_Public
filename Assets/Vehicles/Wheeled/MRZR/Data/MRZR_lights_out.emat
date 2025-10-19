@@ -1,0 +1,8 @@
+MatPBRBasicGlass {
+ SortBias 1
+ AlphaMul 1.3
+ MetalnessScale 0.5
+ CavityFromAO 0
+ OpacityMap "{1E699F2D0D5EEAFB}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_lights_A.edds"
+ FresnelPower 1.879
+}

@@ -1,0 +1,20 @@
+GenericEntity : "{DE9CDA1147DA98DD}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZR_SpareHolder.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{655433E32CF1FE0B}" {
+     SourceMaterial "MRZR_body"
+     AssignedMaterial "{60FCCED9FF184A82}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_body_black.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{65301E01B1DCAFFA}" {
+   Slots {
+    EntitySlotInfo SpareTire {
+     Prefab "{A8D9C7E78FA9D104}Prefabs/Vehicles/Wheeled/MRZR/VehParts/Wheels/MRZRD4_wheel_Left_Black.et"
+    }
+   }
+  }
+ }
+}

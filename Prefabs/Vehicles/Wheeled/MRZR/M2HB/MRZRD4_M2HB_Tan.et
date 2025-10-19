@@ -1,0 +1,45 @@
+Vehicle : "{497CF28714CD35CB}Prefabs/Vehicles/Wheeled/MRZR/M2HB/MRZRD4_M2HB.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6528211FB309B58A}" {
+     SourceMaterial "MRZR_body"
+     AssignedMaterial "{4EDA8B1E6502F46E}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_body_tan.emat"
+    }
+    MaterialAssignClass "{6528211E8882060E}" {
+     SourceMaterial "MRZR_seats"
+     AssignedMaterial "{E8D4F45B36BBF142}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_seats_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{1942D534F502871F}UI/Textures/EditorPreviews/Vehicles/Wheeled/MRZR/MRZR_M2HB.edds"
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    SCR_WheelSlotInfo Wheel_l01 {
+     Prefab "{8488036578CCD38D}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZRD4_wheel_Left_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_r01 {
+     Prefab "{A38C40297BDC84D8}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZRD4_wheel_Right_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_l02 {
+     Prefab "{8488036578CCD38D}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZRD4_wheel_Left_Tan.et"
+    }
+    SCR_WheelSlotInfo Wheel_r02 {
+     Prefab "{A38C40297BDC84D8}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZRD4_wheel_Right_Tan.et"
+    }
+    EntitySlotInfo SpareHolder {
+     Prefab "{83BF0512BABCD2E1}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZR_SpareHolder_Tan.et"
+    }
+    RegisteringComponentSlotInfo Weapon {
+     Prefab "{A25C6291F728360E}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZR_gun_mount_M2HB_tan.et"
+    }
+   }
+  }
+ }
+ coords 85.559 1 1226.143
+}

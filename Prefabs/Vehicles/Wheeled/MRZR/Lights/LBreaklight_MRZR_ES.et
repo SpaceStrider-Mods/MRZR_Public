@@ -1,0 +1,18 @@
+GameEntity : "{A50B7F75B249F351}Prefabs/Vehicles/Core/Lights/VehicleEmissiveSurface_Base.et" {
+ ID "54DEF484EE00449D"
+ components {
+  MeshObject "{54DEF48745980A1F}" {
+   Object "{4A527F1295B650C1}Assets/Vehicles/Wheeled/MRZR/VehParts/Lights/MRZR_Taillight_L.xob"
+  }
+  SCR_DamageManagerComponent "{607AD7DE2D704BD9}" {
+   "Additional hit zones" {
+    SCR_LightHitZone Light {
+     ColliderNames {
+      "UCX_MRZR_light_rear_L"
+     }
+    }
+   }
+  }
+ }
+ coords 85.438 1 1241.006
+}

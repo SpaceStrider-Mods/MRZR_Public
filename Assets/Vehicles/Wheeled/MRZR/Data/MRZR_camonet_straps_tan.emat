@@ -1,0 +1,5 @@
+MatPBRCamo : "{F657F6ED4AC41FF6}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_camonet_straps.emat" {
+ CamoAlbedoMap 
+ CamoColor 0.27 0.191 0.09 1
+ CamoOpacity 0.65
+}

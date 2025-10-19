@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7CC99A5537EC6B6D}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_metal.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

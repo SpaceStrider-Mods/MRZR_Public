@@ -1,0 +1,6 @@
+AnimSetInstanceSource "{65350439AFE704BC}" {
+ Template "{7D1CED3873B147A6}Assets/Vehicles/Wheeled/MRZR/workspaces/MRZR.ast"
+ PreviewModel "{B60C649F82AB9F99}Assets/Vehicles/Wheeled/MRZR/MRZR_body.xob"
+ RBF AnimSetInstanceSourceRBFArray "{65350439AF86C5E4}" {
+ }
+}

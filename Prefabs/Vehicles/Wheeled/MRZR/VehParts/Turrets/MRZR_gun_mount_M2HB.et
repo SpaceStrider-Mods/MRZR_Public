@@ -1,0 +1,29 @@
+Turret : "{FF8CDA6215D6BED6}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZR_gun_mount.et" {
+ ID "51ACD0965653D003"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "FrontGunner" "storage"
+      }
+     }
+    }
+   }
+  }
+  SCR_SignalDebugComponent "{652817C1B9BD8E67}" {
+   m_aSignalNames {
+    "AimTurnTurret" "AimElevationTurret"
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset -0.0009 2.1588 -0.3186
+    MergePhysics 1
+   }
+   WeaponTemplate "{69A9BC585134D555}Prefabs/Weapons/HeavyWeapons/HMG_M2HB_pintle_M151A2.et"
+  }
+ }
+ coords 96.025 1 1229.886
+}

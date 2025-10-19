@@ -1,0 +1,62 @@
+MetaFileClass {
+ Name "{EAAAB66ACF4418C9}Assets/Vehicles/Wheeled/MRZR/MRZR_wheel.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{65233DF5EC64AF72}" {
+     SourceMaterial "MRZR_body"
+     AssignedMaterial "{CF3CC747400D9688}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_body.emat"
+    }
+    MaterialAssignClass "{65233DF5EC64AF5C}" {
+     SourceMaterial "MRZR_tires"
+     AssignedMaterial "{FCD5996932E52845}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_tires.emat"
+    }
+   }
+   MeshParams {
+    MeshParam MRZR_Tire {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCL_VC_Wheel {
+     LayerPreset "VehicleComplex"
+     SurfaceProperties {
+      "{8F1BCCA995D7FA4B}Common/Materials/Game/rubber_tire.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_FG_Tire {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{BF7032579F3C450F}Common/Materials/Game/Metal/metal_1mm.gamemat"
+      "{C2BF4F9689827271}Common/Materials/Game/RubberTire/rubber_tire_4mm_min.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{65233DF5EC523F99}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{65233DF5EC523EF9}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{65233DF5EC523EA4}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{65233DF5EC523E69}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{65233DF5EC523E42}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{65233DF5EC523E31}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

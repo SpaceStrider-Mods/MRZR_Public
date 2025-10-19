@@ -1,0 +1,17 @@
+MatPBRBasic {
+ Color 0.283 0.283 0.283 1
+ SpecularIBL 0.212 0.212 0.212 1
+ Emissive 0.658 0.943 1 0
+ EmissiveLV 2
+ ApplyAlbedoToEmissive 1
+ Specular 0.212 0.212 0.212 1
+ RoughnessScale 1.767
+ MetalnessScale 0
+ CavityFromAO 0
+ EmissiveMap "{6B85220BD1631DD0}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Gauges_BCR.edds"
+ BCRMap "{6B85220BD1631DD0}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Gauges_BCR.edds"
+ GlobalMapsUVTransform MatUVTransform "{652AFE8D61FAFC53}" {
+  OffsetU -0.005
+  OffsetV -0.001
+ }
+}

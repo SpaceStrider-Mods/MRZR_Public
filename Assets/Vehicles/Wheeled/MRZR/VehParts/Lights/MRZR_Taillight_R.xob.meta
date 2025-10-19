@@ -1,0 +1,56 @@
+MetaFileClass {
+ Name "{BB594746E6E9652D}Assets/Vehicles/Wheeled/MRZR/VehParts/Lights/MRZR_Taillight_R.xob"
+ Configurations {
+  FBXResourceClass PC {
+   ExportSkinning 1
+   ExportMorphs 1
+   ExportSceneHierarchy 1
+   MaterialAssigns {
+    MaterialAssignClass "{65252AED0A91B053}" {
+     SourceMaterial "MRZR_lights"
+     AssignedMaterial "{209E5D8A8AAE0E2D}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Lights.emat"
+    }
+    MaterialAssignClass "{65252AED0A91B00F}" {
+     SourceMaterial "MRZR_plastic"
+     AssignedMaterial "{1B1BFDF8E1137503}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_plastic.emat"
+    }
+   }
+   MeshParams {
+    MeshParam MRZR_light_rear_R {
+    }
+   }
+   GeometryParams {
+    GeometryParam UCX_MRZR_light_rear_R {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{3DC7C8A918E3F4A5}Common/Materials/Game/glass.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{65252AE00F52A888}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{65252AE00F52A804}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{65252AE00F52ABF2}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{65252AE00F52ABA8}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{65252AE00F52AB81}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{65252AE00F52AB78}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

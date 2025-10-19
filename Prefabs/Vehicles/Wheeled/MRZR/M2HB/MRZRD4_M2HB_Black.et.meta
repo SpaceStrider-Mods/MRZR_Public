@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{9D7C5F83543F4671}Prefabs/Vehicles/Wheeled/MRZR/M2HB/MRZRD4_M2HB_Black.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

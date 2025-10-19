@@ -1,0 +1,167 @@
+Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{D7725ACB535471F3}Assets/Vehicles/Wheeled/MRZR/VehParts/MRZR_50mount.xob"
+  }
+  RigidBody "{51ACD09C423F175F}" {
+   Static 0
+  }
+  ProcAnimComponent "{51ACD09DB14C45C0}" {
+   Enabled 0
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorInfo "{652817C61B7772CA}" {
+     ContextName "Front_Gunner"
+     EntryPositionInfo PointInfo "{652817C61B7772F5}" {
+      PivotID "gunner_front_getIn"
+     }
+     ExitPositionInfo PointInfo "{652817C61B7772F1}" {
+     }
+     FakeDoor 1
+    }
+    CompartmentDoorInfo "{65282114FF0ACA42}" {
+     AnimDoorIndex 4
+     ContextName "NoDoor_Gunner"
+     EntryPositionInfo PointInfo "{65282114FF0ACDEC}" {
+      PivotID ""
+     }
+     ExitPositionInfo PointInfo "{65282114FF0ACDEE}" {
+     }
+     GetInTeleport 1
+     GetOutTeleport 1
+     FakeDoor 1
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList {
+       "FrontGunner" "wheel_spare"
+      }
+      UIInfo SCR_ActionUIInfo "{5086CC2CF6E6E730}" : "{985161CA55892A3C}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_GetInGunner.conf" {
+      }
+      "Sort Priority" 5
+     }
+     GetOutAction SCR_GetOutAction "{509D56664FF79DDB}" {
+      UIInfo SCR_ActionUIInfo "{509D566643F0DEA8}" : "{6B098766DC92FCA3}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_GetOut.conf" {
+      }
+      "Sort Priority" 12
+     }
+     JumpOutAction SCR_JumpOutAction "{5D0B1D47DC1C5730}" {
+      UIInfo SCR_ActionUIInfo "{5D0B1D47D8169C4A}" : "{66FA02022BE60AC7}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_Eject.conf" {
+      }
+      "Sort Priority" 12
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      ParentContextList {
+       "GunMount"
+      }
+      UIInfo SCR_ActionUIInfo "{509D56664DBB3262}" : "{50D232E0CC3A06A7}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_SwitchSeatGunner.conf" {
+       Name "#AR-UserAction_SwitchSeat"
+       Icon ""
+      }
+      "Sort Priority" 5
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList {
+        "default"
+       }
+       UIInfo SCR_ActionUIInfo "{5D56867A43FC0F62}" : "{A0A9603C4409F8D2}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/ActionUIInfo_RemoveCasulities.conf" {
+       }
+       "Sort Priority" 4
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+       ParentContextList {
+        "FrontGunner" "wheel_spare"
+       }
+       "Sort Priority" 4
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      PivotID "gunner_idle"
+      Offset 0 0.1367 -0.0782
+     }
+     ForcedFreeLook 0
+     CharactersCanFallOutOnFlip 1
+     DoorInfoList {
+      0 4
+     }
+     DirectAimMode 1
+     AllowAiming 1
+     ProceduralSidesteppingAndHeightAdjustment 0
+     m_DefaultOccupantData SCR_DefaultOccupantData "{652817C61B777303}" {
+      m_sDefaultOccupantPrefab "{C110498284A5418F}Prefabs/Characters/Factions/BLUFOR/US_Army/GreenBerets/Character_US_SF_GL.et"
+     }
+    }
+   }
+  }
+  SCR_SignalDebugComponent "{65282114A6ECEC33}" {
+   m_aSignalNames {
+    "AimTurnTurret" "AimElevationTurret"
+   }
+  }
+  SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -40 40
+   LimitsVert -15 40
+   TurretReloadPosition 500 30
+   TurretUnconsciousPosition 500 60
+  }
+  SCR_UniversalInventoryStorageComponent "{652817C61B777332}" {
+   Enabled 0
+   Attributes SCR_ItemAttributeCollection "{652817C61B777328}" {
+    CustomAttributes {
+     PreviewRenderAttributes "{652817C61B777324}" {
+      CameraDistanceToItem 1.9
+     }
+     SCR_InventoryVehicleVisibilityAttribute "{652817C61B777347}" {
+      m_bShowForVehicleFactionOnly 1
+     }
+    }
+    m_bDraggable 0
+   }
+   m_fMaxWeight 100
+  }
+  SCR_VehicleCameraDataComponent "{51AE850D79DDB1F5}" {
+   m_fHeight 1
+   m_fDist_Max 4.8
+   m_fDist_Min 3.2
+   m_fDist_Desired 4
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    Offset -0.0009 2.1078 -0.3186
+   }
+   WeaponTemplate ""
+  }
+  SCR_TurretInventoryStorageManagerComponent "{652817C61B77737C}" {
+   Enabled 0
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     UIInfo SCR_ActionContextUIInfo "{6108CB4D8ABBF37C}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "FrontGunner"
+     Position PointInfo "{51ACFBB061993925}" {
+      Offset 0 2.3481 -0.9147
+     }
+     Radius 0.5
+    }
+    UserActionContext "{652817C61B777372}" {
+     UIInfo SCR_ActionContextUIInfo "{6108CB4D8ABBF37C}" : "{7CD00B230573CAC6}Prefabs/Vehicles/Core/Configs/Actions/ActionUIInfo/SCR_ActionContextUIInfo.conf" {
+     }
+     ContextName "GunMount"
+     Position PointInfo "{652817C61B777371}" {
+      Offset 0 2.3481 -0.9147
+     }
+     Radius 0.5
+    }
+   }
+   AllowCrossHierarchy 1
+  }
+ }
+ coords 82.019 1 1236.711
+}

@@ -1,0 +1,9 @@
+MatPBRMulti : "{CF3CC747400D9688}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_body.emat" {
+ MCRBrightness 1
+ Color_2 0.657 0.702 0.863 1
+ BCR_2 "{8B5F4592F48AFE98}Common/Textures/Camouflage/T_CamoSpray_07_BC.edds"
+ UVTransform_2 MatUVTransform "{655F259BB827F85C}" {
+  TilingU 4
+  TilingV 4
+ }
+}

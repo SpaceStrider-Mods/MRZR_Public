@@ -1,0 +1,83 @@
+GameProject {
+ ID "MRZR"
+ GUID "64900A5A31F5DCB5"
+ TITLE "MRZR"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+ Configurations {
+  GameProjectConfig PC {
+   WidgetManagerSettings WidgetManagerSettings "{AC4BE58770485E02}" {
+    StringTables {
+     StringTableDefinition "{6496117912AB65C1}" {
+      StringTableSource "{29C2DEC40E8ADAA5}Language/MRZR_Localization.st"
+      Languages {
+       LanguageDefinition "{649611791499DAF3}" {
+        Code "cs_cz"
+        StringTableRuntime "{A0EAE844BF133DC5}Language/MRZR_Localization.cs_cz.conf"
+       }
+       LanguageDefinition "{649611791499D932}" {
+        Code "de_de"
+        StringTableRuntime "{7594F277ACB02CE5}Language/MRZR_Localization.de_de.conf"
+       }
+       LanguageDefinition "{649611791499D900}" {
+        Code "en_us"
+        StringTableRuntime "{2B64783CC64329E4}Language/MRZR_Localization.en_us.conf"
+       }
+       LanguageDefinition "{649611791499D913}" {
+        Code "es_es"
+        StringTableRuntime "{EE2835B5284142FB}Language/MRZR_Localization.es_es.conf"
+       }
+       LanguageDefinition "{649611791499D96D}" {
+        Code "fr_fr"
+        StringTableRuntime "{5580C082CEC2A1F9}Language/MRZR_Localization.fr_fr.conf"
+       }
+       LanguageDefinition "{649611791499D977}" {
+        Code "it_it"
+        StringTableRuntime "{D59C4FB663E02200}Language/MRZR_Localization.it_it.conf"
+       }
+       LanguageDefinition "{649611791499D946}" {
+        Code "ja_jp"
+        StringTableRuntime "{C587F2245D9112AB}Language/MRZR_Localization.ja_jp.conf"
+       }
+       LanguageDefinition "{649611791499D950}" {
+        Code "ko_kr"
+        StringTableRuntime "{6539DA88CEBC1194}Language/MRZR_Localization.ko_kr.conf"
+       }
+       LanguageDefinition "{649611791499D9A7}" {
+        Code "pl_pl"
+        StringTableRuntime "{39487C7270538DE8}Language/MRZR_Localization.pl_pl.conf"
+       }
+       LanguageDefinition "{649611791499D9B0}" {
+        Code "pt_br"
+        StringTableRuntime "{EC3FE6BE4BAD4752}Language/MRZR_Localization.pt_br.conf"
+       }
+       LanguageDefinition "{649611791499D980}" {
+        Code "ru_ru"
+        StringTableRuntime "{B97EF216D6D42224}Language/MRZR_Localization.ru_ru.conf"
+       }
+       LanguageDefinition "{649611791499D819}" {
+        Code "uk_ua"
+        StringTableRuntime "{3326A7E0BAFA9C71}Language/MRZR_Localization.uk_ua.conf"
+       }
+       LanguageDefinition "{649611791499D86B}" {
+        Code "zh_cn"
+        StringTableRuntime "{E996C9DD835A4C6C}Language/MRZR_Localization.zh_cn.conf"
+       }
+      }
+     }
+    }
+   }
+  }
+  GameProjectConfig XBOX_ONE {
+  }
+  GameProjectConfig XBOX_SERIES {
+  }
+  GameProjectConfig PS4 {
+  }
+  GameProjectConfig PS5 {
+  }
+  GameProjectConfig HEADLESS {
+  }
+ }
+}
