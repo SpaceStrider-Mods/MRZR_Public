@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{83BF0512BABCD2E1}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZR_SpareHolder_Tan.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

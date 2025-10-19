@@ -1,0 +1,11 @@
+MatPBRBasic {
+ Color 0.04 0.047 0.035 1
+ MetalnessScale 0
+ BCRMap "{8A0C885766CAD60D}Assets/_SharedData/Metal/ST_Rust_01_Aluminium_V2_BCR.edds"
+ NormalPower 0.3
+ NMOMap "{0470164F98BC8DD2}Assets/_SharedData/Metal/ST_MetalBare_01_NMO.edds"
+ GlobalMapsUVTransform MatUVTransform "{653025410DEEE451}" {
+  TilingU 15
+  TilingV 15
+ }
+}

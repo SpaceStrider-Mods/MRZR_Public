@@ -1,0 +1,8 @@
+MatPBRDecal {
+ Color 0.371 0.371 0.371 1
+ BlendMode AlphaBlend
+ OpacityMap "{8642C6FDBD2776CB}UI/Textures/Icons/icons_wrapperUI-400_atlas.edds"
+ GlobalMapsUVTransform MatUVTransform "{652AFE820F8A51E5}" {
+  OffsetU -0.005
+ }
+}

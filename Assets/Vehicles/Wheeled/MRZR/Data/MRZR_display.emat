@@ -1,0 +1,6 @@
+MatPBRBasic {
+ Color 0.053 0.053 0.053 1
+ SpecularIBL 0.205 0.205 0.205 1
+ MetalnessScale 0
+ BCRMap "{E05D515EDE26551C}Assets/_SharedData/Glass/ST_Glass_Dirt_01_BCR.edds"
+}

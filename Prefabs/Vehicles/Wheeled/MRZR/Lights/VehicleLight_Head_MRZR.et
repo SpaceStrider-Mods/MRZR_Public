@@ -1,0 +1,6 @@
+LightEntity : "{8E0D13E02E4229A2}Prefabs/Vehicles/Core/Lights/VehicleLight_Head_Base.et" {
+ ID "514ED7499ABC27FE"
+ coords 96.29 1 1244.417
+ angleY 0
+ Color 0.9823 0.9911 1 1
+}

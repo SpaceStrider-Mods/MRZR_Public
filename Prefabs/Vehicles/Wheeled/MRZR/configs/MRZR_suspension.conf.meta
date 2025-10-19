@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3C637B20B67E7F5D}Prefabs/Vehicles/Wheeled/MRZR/configs/MRZR_suspension.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MatPBRBasic {
+ Color 0.262 0.262 0.262 1
+ Emissive 1 1 1 0
+ EmissiveLV 2.102
+ EmissiveAbsoluteLV 0
+ SortBias -2
+ SpecularMul 0
+ BlendMode None
+ EmissiveMap "{0959A371C015109E}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_lights_E.edds"
+ BCRMap "{E94EE5CEF3FADC11}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_lights_BCR.edds"
+ OpacityMap "{1E699F2D0D5EEAFB}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_lights_A.edds"
+ NMOMap "{D1965E5C2A8D8E8F}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_lights_NMO.edds"
+ HeightMap "{C401A00C9A147645}Assets/Vehicles/Wheeled/LAV25/Data/LAV25_lights_H.edds"
+ ParallaxScale 0.1
+ ParallaxMidlePlane 0.046
+}

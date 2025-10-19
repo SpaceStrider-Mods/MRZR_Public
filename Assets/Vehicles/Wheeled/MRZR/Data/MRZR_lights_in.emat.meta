@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D639FAF6D42196F4}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_lights_in.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

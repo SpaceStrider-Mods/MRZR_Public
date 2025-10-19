@@ -1,0 +1,13 @@
+Turret : "{1C151DA21A0F2D24}Prefabs/Vehicles/Wheeled/MRZR/VehParts/Turrets/MRZR_gun_mount_M2HB.et" {
+ ID "51ACD0965653D003"
+ components {
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Materials {
+    MaterialAssignClass "{655433E2EDF7F436}" {
+     SourceMaterial "MRZR_mounts"
+     AssignedMaterial "{EF7A1C00403205EF}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_mounts_black.emat"
+    }
+   }
+  }
+ }
+}

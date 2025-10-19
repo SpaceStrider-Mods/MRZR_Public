@@ -1,0 +1,17 @@
+GenericEntity : "{4468742E64F2BF07}Prefabs/Vehicles/Wheeled/MRZR/VehParts/MRZR_CamoNet.et" {
+ ID "4B42E71698F5739C"
+ components {
+  MeshObject "{4B42E716914465B9}" {
+   Materials {
+    MaterialAssignClass "{655433E2C2EF4C56}" {
+     SourceMaterial "MRZR_camonet"
+     AssignedMaterial "{ADD30BAE551CACE6}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_camonet_black.emat"
+    }
+    MaterialAssignClass "{655433E2C2EF4C3E}" {
+     SourceMaterial "MRZR_camonet_straps"
+     AssignedMaterial "{30792975252C00A1}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_camonet_straps_black.emat"
+    }
+   }
+  }
+ }
+}

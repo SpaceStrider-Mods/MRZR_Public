@@ -1,0 +1,7 @@
+LightEntity : "{640BCE1BD611FB3E}Prefabs/Vehicles/Core/Lights/VehicleLight_HiBeam_Base.et" {
+ ID "514ED7499ABC27FE"
+ coords 94.537 1 1244.637
+ angleX 0
+ angleY 0
+ Color 0.9823 0.9911 1 1
+}

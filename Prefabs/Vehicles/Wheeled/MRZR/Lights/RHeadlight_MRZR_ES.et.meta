@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{3D39672BBA5A44CE}Prefabs/Vehicles/Wheeled/MRZR/Lights/RHeadlight_MRZR_ES.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

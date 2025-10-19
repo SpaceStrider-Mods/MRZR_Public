@@ -1,0 +1,13 @@
+Vehicle : "{DA7CF11F1BD23125}Prefabs/Vehicles/Wheeled/MRZR/Unarmed/MRZRD4_Unarmed.et" {
+ ID "44EC665ABD2FF04B"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{655F259CF855E404}" {
+     SourceMaterial "MRZR_body"
+     AssignedMaterial "{64F9D6F830E1948C}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_body_Camo.emat"
+    }
+   }
+  }
+ }
+}

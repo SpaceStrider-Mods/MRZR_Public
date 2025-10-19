@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{86D0573ED7A03784}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_camonet_straps_tan.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

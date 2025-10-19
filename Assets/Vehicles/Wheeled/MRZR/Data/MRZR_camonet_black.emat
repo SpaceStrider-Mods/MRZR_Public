@@ -1,0 +1,6 @@
+MatPBRCamo : "{5296E91429D0E589}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_camonet.emat" {
+ CamoAlbedoMap "{DFA994201FBCE7BD}Common/Textures/Camouflage/T_CamoSnow_02_BC.edds"
+ CamoAlbedoMapUVTransform MatUVTransform "{65296043BFFE3935}" {
+ }
+ CamoColor 0.266 0.266 0.238 1
+}

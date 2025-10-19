@@ -1,0 +1,35 @@
+MatPBRMulti {
+ GlobalMCRMap "{52D8E4991CFFF6DB}Assets/Vehicles/Wheeled/MRZR/Data/Textures/MRZR_seats_MCR.edds"
+ GlobalMCRMode Multiply
+ MCRBrightness 2.2
+ VFXMap "{E619D032EB1285F7}Assets/Vehicles/Wheeled/MRZR/Data/Textures/MRZR_seats_VFX.edds"
+ GlobalNMOMap "{966BD59AB776349B}Assets/Vehicles/Wheeled/MRZR/Data/Textures/MRZR_seats_NMO.edds"
+ MudOpacity 1.07
+ MudColor 0.144 0.144 0.144 1
+ MudRoughness 1.251
+ MudMetalness 0
+ MudBCRMap "{BDBC2D24C124C913}Assets/Decals/Miscellaneous/Damage/Damage_Burnt_03_BCR.edds"
+ MudNMOMap "{DE8CFC784D85EF9D}Assets/_SharedData/Dirt/ST_Grease_Oil01_1m_NMO.edds"
+ MudMaskMap "{8A50472D717443E4}Assets/_SharedData/DetailMask/ST_Dirt_02_Mask1.edds"
+ MudUVTransform MatUVTransform "{652A293407F2EB7E}" {
+  TilingU 4
+  TilingV 4
+ }
+ DirtOpacity 0.292
+ DirtLayerSharpness 5.639
+ DirtColor 0.098 0.084 0.047 1
+ DirtRoughness 1.426
+ DirtBCRMap "{9B97AA81EF1AAA3C}Assets/_SharedData/Dirt/ST_destruct_rust_BCR.edds"
+ DirtMaskMap "{8A50472D717443E4}Assets/_SharedData/DetailMask/ST_Dirt_02_Mask1.edds"
+ DirtUVTransform MatUVTransform "{652A293BD86C75E9}" {
+  TilingU 5
+  TilingV 5
+ }
+ Color_1 0.084 0.084 0.084 1
+ BCR_1 "{2C2411924177AC7B}Assets/_SharedData/Fabric/ST_Leather_01_BCR.edds"
+ NMO_1 "{D6F07D5F999E24BB}Assets/_SharedData/Fabric/ST_Leather_01_N.edds"
+ UVTransform_1 MatUVTransform "{65233DD1AAF89AE7}" {
+  TilingU 10
+  TilingV 10
+ }
+}

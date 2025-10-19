@@ -1,0 +1,4 @@
+MatPBRMulti : "{CF3CC747400D9688}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_body.emat" {
+ Color_2 0.021 0.021 0.021 1
+ Color_1 0.03 0.03 0.03 1
+}

@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{34AC57771A40E3EC}Assets/Vehicles/Wheeled/MRZR/proc/wheel_rot_steer_susp_mrzr_R.pap"
+ Configurations {
+  ProcAnimProjectResourceClass PC {
+  }
+  ProcAnimProjectResourceClass XBOX_ONE : PC {
+  }
+  ProcAnimProjectResourceClass XBOX_SERIES : PC {
+  }
+  ProcAnimProjectResourceClass PS4 : PC {
+  }
+  ProcAnimProjectResourceClass PS5 : PC {
+  }
+  ProcAnimProjectResourceClass HEADLESS : PC {
+  }
+ }
+}

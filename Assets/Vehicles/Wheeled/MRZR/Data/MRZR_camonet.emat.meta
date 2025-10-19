@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{5296E91429D0E589}Assets/Vehicles/Wheeled/MRZR/Data/MRZR_camonet.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
